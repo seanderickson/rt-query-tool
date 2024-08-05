@@ -1,10 +1,14 @@
 # Reagent Tracker Query Tool
 
-Open this program in an iFrame or popup and add an event listener to receive
-postMessage communications.
 
-Use the postMessage channel to invoke and receive query results from an authenticated session with the ReagentTracker API.
+LitElement + Tailwind + TypeScript Example to query RT server
 
+Simple program to
+- login (and start a session)
+- fetch a slide
+- logout
+
+(just using Lit and TS as an example)
 
 ### Notes
 
