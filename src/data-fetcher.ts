@@ -10,10 +10,9 @@ export class DataFetcher extends LitElement {
   
   @property({ type: String })
   slideResult = "";
-  
   doSlideRequest() {
     console.log("doSlideRequest...");
-    fetch(APIURL + "/slide?q=LSP14255", {
+    fetch(APIURL + "/slide?q=LSP10352&show_patient_fields=true&show_surgery_fields=true", {
       method: 'GET',
       credentials: 'include',
       // mode: 'cors',
